@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import Home_info from '../components/Home_info';
-import img1 from '../images/homeimgnew-min.jpeg';
+import img1 from '../images/copy of job and Internship.png';
 
 
 const Home = () => {

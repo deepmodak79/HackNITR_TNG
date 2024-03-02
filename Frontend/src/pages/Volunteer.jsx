@@ -2,11 +2,7 @@ import React from 'react';
 
 const founders = [
   
-  {
-    name: 'Shaheera Fatima',
-    role: 'Front-end Team',
-    image: 'https://i.pinimg.com/236x/69/5c/3c/695c3cee049e454e65b9c90c6ae1a29f.jpg', // Replace with actual image file
-  },
+  
 
   {
     name: 'Deep Modak',
@@ -16,7 +12,7 @@ const founders = [
   {
     name: 'Raksha Pahariya',
     role: 'Front End Team',
-    image: 'Frontend\src\images\Raksha.jpg', // Replace with actual image file
+    image:<img src="https://drive.google.com/file/d/1SFzseWB3W4GNnqrg2NcBNRxS9Jn-c0tJ/view?usp=sharing" alt="image"></img>// Replace with actual image file
   },
 ];
 

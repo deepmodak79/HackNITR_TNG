@@ -52,7 +52,7 @@ const ContactUs = () => {
           <div className="icon">
             <i className="fa fa-phone"></i>
           </div>
-          <p>+91 xxxxxxxx67</p>
+          <p>+91 xxxxxxx157</p>
         </div>
         <div className="address">
           <div className="icon">
