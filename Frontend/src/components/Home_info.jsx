@@ -1,22 +1,22 @@
 import React, { Component, useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import image1 from "../images/home1-min.jpeg";
-import image2 from "../images/home2-min.jpeg";
-import image3 from "../images/home3-min.jpeg";
+import image1 from "../images/Meet_us.jpg";
+import image2 from "../images/mental_health.webp";
+import image3 from "../images/mental_explore.jpg";
 
 const contentData = [
   {
     imageSrc:
     image1,
-    title: "Who We Are",
-    text: "Discover more about our organization and learn about our mission and initiatives to make a positive impact on mental health and well-being.",
+    title: "Meet Us",
+    text: "Learn about our organization's mission and initiatives aimed at promoting mental health and well-being, and discover how you can be part of our positive impact.",
     link: "/Volunteer",
   },
   {
     imageSrc:
       image2,
-    title: "Take Our Diagnostic Quizzes",
-    text: "Discover our diagnostic quizzes designed to help you evaluate your mental well-being. Take a moment to explore and gain insights into your mental health.",
+    title: "Explore our mental health quizzes for valuable insights",
+    text: "Discover our range of diagnostic quizzes engineered to assist you in evaluating your mental well-being. Take a moment to delve into them and gain valuable insights into your psychological health.",
     link: "/Quiz",
   },
   {
