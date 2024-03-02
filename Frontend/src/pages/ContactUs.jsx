@@ -46,7 +46,7 @@ const ContactUs = () => {
               <i className="fa fa-map-marker"></i>
             </a>
           </div>
-          <p>Jaypee Institute of Information Technology</p>
+          <p>Indian Institute of Engineering Science and Technology, Shibpur</p>
         </div>
         <div className="address">
           <div className="icon">
@@ -58,7 +58,7 @@ const ContactUs = () => {
           <div className="icon">
             <i className="fa fa-envelope"></i>
           </div>
-          <p>sukoon@gmail.com</p>
+          <p>rahat@gmail.com</p>
         </div>
         <div className="social-icons">
           <a href="#" className="icon">
@@ -67,9 +67,7 @@ const ContactUs = () => {
           <a href="#" className="icon">
             <i className="fa fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/sukoonformentalhealth/" target="_blank" rel="noopener noreferrer" className="icon">
-            <i className="fa fa-instagram"></i>
-          </a>
+          
         </div>
       </div>
       <div className="contact-form">

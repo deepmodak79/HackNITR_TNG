@@ -1,12 +1,7 @@
 import React from 'react';
 
 const founders = [
-  {
-    name: 'Ananya Shanker',
-    role: 'Front-end Team', 
   
-    image: 'https://i.pinimg.com/564x/29/77/fe/2977fe836b3ea15ec686d5031006f9ef.jpg', // Replace with actual image file
-  },
   {
     name: 'Shaheera Fatima',
     role: 'Front-end Team',
@@ -14,14 +9,14 @@ const founders = [
   },
 
   {
-    name: 'Mansi Rawat',
-    role: 'Front-end & Back-end Team',
-    image: 'https://i.pinimg.com/236x/43/97/2e/43972ee941de6b988bebbc64741a1b5c.jpg', // Replace with actual image file
+    name: 'Deep Modak',
+    role: 'Back-end Team',
+    image: 'Deep.jpg', // Replace with actual image file
   },
   {
-    name: 'Aayushi',
-    role: 'Front-end & Back-end Team',
-    image: 'https://i.pinimg.com/564x/c3/0d/06/c30d0644771cbcb628019836ed319afc.jpg', // Replace with actual image file
+    name: 'Raksha Pahariya',
+    role: 'Front End Team',
+    image: 'Frontend\src\images\Raksha.jpg', // Replace with actual image file
   },
 ];
 
