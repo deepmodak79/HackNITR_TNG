@@ -1,0 +1,68 @@
+{
+  "createTime": 1709438110207,
+  "updateTime": 1709438257727,
+  "name": "Monitor-HTTP",
+  "description": "Ping a URL for uptime check and notify multiple if its down",
+  "version": 2,
+  "tasks": [
+    {
+      "name": "call_endpoint",
+      "taskReferenceName": "call_endpoint",
+      "inputParameters": {
+        "http_request": {
+          "uri": "${workflow.input.endpoint_url}",
+          "method": "GET",
+          "connectionTimeOut": 3000,
+          "readTimeOut": 3000
+        }
+      },
+      "type": "HTTP",
+      "decisionCases": {},
+      "defaultCase": [],
+      "forkTasks": [],
+      "startDelay": 0,
+      "joinOn": [],
+      "optional": true,
+      "defaultExclusiveJoinTask": [],
+      "asyncComplete": false,
+      "loopOver": [],
+      "onStateChange": {}
+    },
+    {
+      "name": "get_timestamp",
+      "taskReferenceName": "get_timestamp_ref",
+      "inputParameters": {
+        "expression": "(function () { return new Date().toJSON(); })();",
+        "evaluatorType": "javascript"
+      },
+      "type": "INLINE",
+      "decisionCases": {},
+      "defaultCase": [],
+      "forkTasks": [],
+      "startDelay": 0,
+      "joinOn": [],
+      "optional": false,
+      "defaultExclusiveJoinTask": [],
+      "asyncComplete": false,
+      "loopOver": [],
+      "onStateChange": {}
+    }
+  ],
+  "inputParameters": [
+    "endpoint_url",
+    "notification_type",
+    "notification_to",
+    "notification_from"
+  ],
+  "outputParameters": {
+    "statusCode": "${call_endpoint.output.response.statusCode}"
+  },
+  "schemaVersion": 2,
+  "restartable": true,
+  "workflowStatusListenerEnabled": false,
+  "ownerEmail": "rakshapahariya1208@gmail.com",
+  "timeoutPolicy": "ALERT_ONLY",
+  "timeoutSeconds": 0,
+  "variables": {},
+  "inputTemplate": {}
+}
