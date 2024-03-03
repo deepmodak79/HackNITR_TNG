@@ -2,6 +2,13 @@
 
 # Project RAHAT
 
+## Problem Statement
+Approximately 60 to 70 million people in India are suffering from common and severe mental disorders, making it a significant public health concern in the country and according to WHO, depression is the leading cause of disability worldwide.
+
+Mental health disorders are on the rise globally, impacting individuals of all ages and backgrounds.
+Access to mental health services remains limited, and stigma surrounding mental illness persists.
+
+
 ## Overview
 
 **RAHAT** is a comprehensive mental fitness web application developed for **HACK NITR** under the theme of Health and Fitness. This project is dedicated to the theme of mental health, aiming to raise awareness and provide invaluable resources to individuals navigating through mental health challenges. 
