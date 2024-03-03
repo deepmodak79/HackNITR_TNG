@@ -37,6 +37,16 @@ Our commitment to excellence is unwavering. We firmly believe that every individ
 
 The Orkes Timestamp Integration feature provides a seamless way to retrieve timestamps for workflow executions within our application. By leveraging Orkes, we ensure accurate timestamp data is readily available for monitoring and analyzing workflow executions, paving the way for enhanced user experience and system performance. Though currently implemented, this feature has yet to be fully integrated into our pipeline. Once integrated, it will empower us to track and optimize workflow performance efficiently, leading to improved service delivery and user satisfaction. 
 
+## Challenges Faced
+During the development of RAHAT, we encountered challenges typical of any complex project. One specific hurdle we faced was integrating real-time data updates seamlessly into the user interface. This required careful synchronization between the client and server-side components, especially when dealing with dynamic content such as user-generated posts and updates from external APIs.
+
+To overcome this challenge, we adopted a structured approach, leveraging the capabilities of React.js and Firebase to manage data flow efficiently. We meticulously debugged our code, identifying and resolving any inconsistencies in data transmission. Additionally, we conducted thorough testing at each stage of development to ensure smooth functionality across various scenarios.
 ---
+
+[Presentation](Pitch_Presentation.pdf)
+
+## Video Link 
+
+https://drive.google.com/drive/folders/1e7A80P1_48sbSnPuuPaLhWTSz1JAF2LG?usp=sharing
 
 *Authors: RAKSHA PAHARIYA, DEEP MODAK*
